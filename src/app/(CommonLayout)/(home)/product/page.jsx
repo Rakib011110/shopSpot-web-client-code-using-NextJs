@@ -10,7 +10,7 @@ const ProductsPage = () => {
   // console.log(products);
   return (
     <div>
-      <h1> product pages {products.length} </h1>
+      <h1> product pages {products?.length} </h1>
     </div>
   );
 };
