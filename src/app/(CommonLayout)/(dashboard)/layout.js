@@ -6,19 +6,34 @@ const navigationSections = [
   {
     title: "Manage My Account",
     links: [
-      { label: "My Profile", href: "/admin/my-profile", color: "text-red-500" },
       {
-        label: "Address Book",
-        href: "/admin/address-book",
+        label: "My Profile",
+        href: "/dashboard/my-profile",
+        color: "text-red-500",
+      },
+      {
+        label: " All products",
+        href: "/dashboard/admin/all-products",
+        color: "text-red-500",
+      },
+      {
+        label: "Pending orders",
+        href: "/dashboard/admin/pending-orders",
         color: "text-gray-400",
       },
       {
-        label: "My Payment Options",
-        href: "/admin/payment-options",
+        label: " All orders",
+        href: "/dashboard/admin/all-orders",
+        color: "text-gray-400",
+      },
+      {
+        label: "Create products",
+        href: "/dashboard/admin/create-products",
         color: "text-gray-400",
       },
     ],
   },
+  //  USER
   {
     title: "My Orders",
     links: [
